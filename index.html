@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em HTML</title>
+    <style>
+        table{
+            border: 1px rgb(53, 65, 238) solid;
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 4px rgb(10, 23, 118) solid;
+            padding: 5px;
+
+        }
+        th{
+            background-color: rgb(46, 77, 217);
+            color: beige;
+            font-family: 'Segoe UI' sans-serif;
+        }
+        tr:hover{
+            background-color: rgba(106, 161, 224, 0.302);
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Preços de Produtos Eletrônicos</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+         <tr>
+            <td>Notebook</td>
+             <td>R$ 3.500,00</td>
+
+         </tr>
+         <tr>
+            <td>smartphone</td>
+             <td>R$ 1.200,00</td>
+         </tr>
+         <tr>
+            <td>Geladeira</td>
+            <td>R$ 3.000,00</td>
+        
+         </tr>
+         <tr>
+            <td>Air Fryer</td>
+         <td>R$ 400,00</td>
+         </tr>
+         <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>R$ 8.000,00</td>
+            
+            </tr>
+            
+         </tfoot>
+         
+        </tbody>
+    </table>
+
+    <table>
+         <caption>HORARIOS DE AULAS</caption>
+
+         <thead>
+
+            <tr>
+                <th colspan="5">Horario de aulas-turma 2024</th>
+            </tr>
+            <tr>
+                
+                 <th>Horário</th>
+                <th>Segunda-feira</th>
+                <th>Terça-feira</th>
+                <th>Quarta-feira</th>
+                <th>Quinta-feira</th>
+            </tr>
+        </thead>
+
+        <tbody>
+    
+        
+            <tr>
+               <td>08:00 - 09:00</td>
+               <td>Matemática</td>
+               <td>História</td>
+               <td rowspan="2">Educação Física</td>
+               <td>Quimica</td>
+            </tr>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td colspan="2">Portugues (2horas)</td>
+                <td>biologia</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>Geografia</td>
+                <td>Física</td>
+                <td>Matematica</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td>11:00 - 12:00</td>
+                <td colspan="5">Projeto Interdiciplinar (todas as diciplinas)</td>
+            </tr>
+
+
+
+
+
+
+        </tbody>
+
+    </table>
+
+    
+</body>
+</html>
